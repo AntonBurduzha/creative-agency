@@ -1,0 +1,31 @@
+{
+  "name": "creative-agency",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonburduzha/creative-agency.git"
+  },
+  "author": "anton.burduzha@hotmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antonburduzha/creative-agency/issues"
+  },
+  "homepage": "https://github.com/antonburduzha/creative-agencygit#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.4.0",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^6.1.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-sass-lint": "^1.2.0",
+    "jquery-lazyload": "^1.9.7"
+  },
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "skeleton-css": "^2.0.4"
+  }
+}
