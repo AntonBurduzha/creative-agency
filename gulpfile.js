@@ -3,9 +3,10 @@ var sass = require('gulp-sass');
 var sassLint = require('gulp-sass-lint');
 var postcss = require('gulp-postcss');
 var autoprefixer = require('autoprefixer');
+var spritesmith = require('gulp.spritesmith');
 
-gulp.task('index', function () {
-    gulp.src('src/index.html')
+gulp.task('html', function () {
+    gulp.src('src/*.html')
         .pipe(gulp.dest('dist'))
 });
 
@@ -15,7 +16,7 @@ gulp.task('images', function () {
 });
 
 gulp.task('watch',function () {
-    gulp.watch('src/index.html', ['index']);
+    gulp.watch('src/*.html', ['html']);
     gulp.watch('src/**/*.scss', ['sass']);
 });
 
@@ -56,4 +57,12 @@ gulp.task('vendor-libraries', function () {
         .pipe(gulp.dest('dist/js'));
 });
 
-gulp.task('build', ['vendor-libraries', 'index', 'sass', 'images']);
+gulp.task('sprite', function () {
+    var spriteData = gulp.src('src/img/*.png').pipe(spritesmith({
+        imgName: 'sprite.png',
+        cssName: 'sprite.scss'
+    }));
+    return spriteData.pipe(gulp.dest('dist/sprites'));
+});
+
+gulp.task('build', ['html', 'sass', 'images']);

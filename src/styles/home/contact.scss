@@ -1,0 +1,116 @@
+.contact {
+  background-color: $bg-color;
+  margin-top: 145px;
+  padding: 45px 0;
+
+  @media screen and (max-width: $screen768) {
+    margin-top: 50px;
+  }
+
+  .contact__content {
+    float: right;
+    width: 490px;
+
+    @media screen and (max-width: $screen1170) {
+      margin-left: 30px;
+      width: auto;
+    }
+
+    @media screen and (max-width: $screen768) {
+      margin-left: 10px;
+    }
+
+    .contact__title {
+      color: $white-color;
+      font-family: 'Montserrat', sans-serif;
+      font-size: $font30;
+      font-weight: bold;
+    }
+
+    .contact__btn {
+      background-color: $white-color;
+      border: 0;
+      border-radius: 0;
+      color: $bg-color;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      height: 50px;
+      width: 165px;
+
+      &:hover,
+      &:focus {
+        background-color: $getin-btn-hover;
+      }
+    }
+  }
+
+  .contact__message {
+    background-color: $white-color;
+    padding: 20px;
+    width: 550px;
+
+    @media screen and (max-width: $screen1170) {
+      width: auto;
+    }
+
+    @media screen and (max-width: $screen768) {
+      margin: auto;
+      width: 95%;
+    };
+
+    .message__title {
+      color: $header-color;
+      font-family: 'Montserrat', sans-serif;
+      font-size: $font24;
+      font-weight: bold;
+      margin-bottom: 15px;
+      width: 340px;
+
+      @media screen and (max-width: $screen1170) {
+        width: auto;
+      }
+    }
+
+    .message-description {
+      color: $grey-color;
+      font-family: 'Open Sans', sans-serif;
+      font-size: $font16;
+    }
+
+    .message__email {
+      border-radius: 0;
+      color: $grey-color;
+      display: block;
+      float: left;
+      font-family: 'Montserrat', sans-serif;
+      font-size: $font11;
+      font-weight: bold;
+      width: 370px;
+
+      @media screen and (max-width: $screen1170) {
+        width: 200px;
+      }
+    }
+
+    .message__btn {
+      background-color: $bg-color;
+      border: 0;
+      border-radius: 0;
+      color: $white-color;
+      display: block;
+      float: left;
+      font-family: 'Montserrat', sans-serif;
+
+      &:hover,
+      &:focus {
+        background-color: $more-btn-hover;
+      }
+    }
+  }
+
+  .clearfix {
+    clear: both;
+    content: '';
+    display: table;
+  }
+}
