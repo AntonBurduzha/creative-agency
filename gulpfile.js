@@ -32,7 +32,7 @@ gulp.task('sass-lint', function () {
 });
 
 gulp.task('sass',['sass-lint'], function () {
-    gulp.src('src/style.scss')
+    gulp.src('src/styles/style.scss')
         .pipe(sass())
         .on('error', sass.logError)
         .pipe(postcss([ autoprefixer({ browsers: ['last 2 versions'] }) ]))
@@ -46,7 +46,7 @@ gulp.task('autoprefixer', function () {
         .pipe(gulp.dest('./dist'));
 });
 
-gulp.task('vendor-libraries', function () {
+gulp.task('vendor', function () {
     gulp.src('node_modules/skeleton-css/css/normalize.css')
         .pipe(gulp.dest('dist/css'));
     gulp.src('node_modules/skeleton-css/css/skeleton.css')

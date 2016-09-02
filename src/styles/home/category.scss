@@ -1,0 +1,79 @@
+@import '../fonts';
+
+.category {
+  padding-top: 100px;
+
+  &__content {
+    float: right;
+    width: 170px;
+
+    @media screen and (max-width: $screen1000) {
+      float: none;
+      margin-left: 25px;
+      width: auto;
+    }
+  }
+
+  &__title {
+    color: $header-color;
+    font-family: 'Montserrat', sans-serif;
+    font-size: $font30;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 250px;
+
+    @media screen and (max-width: $screen1000) {
+      width: auto;
+    }
+  }
+
+  &__subtitle {
+    background-color: $bg-color;
+    color: $white-color;
+    font-family: 'Montserrat', sans-serif;
+    font-size: $font14;
+    font-weight: bold;
+    text-align: center;
+    width: 60px;
+  }
+
+  &__list {
+    list-style-type: none;
+    padding-left: 20px;
+  }
+
+  &__list__item {
+    color: $header-color;
+    font-family: 'Montserrat', sans-serif;
+    font-size: $font14;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  &__desktop {
+    margin: 0;
+  }
+
+  &__mobile {
+    @media screen and (max-width: $screen767) {
+      display: none;
+    }
+  }
+
+  &__desktop__img {
+    height: auto;
+    margin-bottom: 25px;
+    width: 80%;
+
+    @media screen and (max-width: $screen767) {
+      margin: 25px 15px;
+      vertical-align: top;
+      width: 25%;
+    }
+
+    @media screen and (max-width: $screen660) {
+      width: 90%;
+    }
+  }
+}

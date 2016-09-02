@@ -1,0 +1,87 @@
+@import '../fonts';
+
+.features {
+  padding-top: 100px;
+
+  @media screen and (max-width: $screen768) {
+    padding-top: 50px;
+  }
+
+  &__content {
+    align-items: baseline;
+    display: flex;
+    flex-flow: row wrap;
+    float: right;
+    justify-content: space-around;
+    width: 650px;
+
+    @media screen and (max-width: $screen1366) {
+      width: auto;
+    }
+
+    @media screen and (max-width: $screen1000) {
+      width: 95%;
+    }
+
+    &__blocks {
+      margin-top: 25px;
+      padding-top: 40px;
+      width: 230px;
+
+      @media screen and (max-width: $screen1000) {
+        width: 160px;
+      }
+
+      @media screen and (max-width: $screen767) {
+        width: 230px;
+      }
+    }
+
+    &__title {
+      color: $header-color;
+      font-family: 'Montserrat', sans-serif;
+      font-size: $font18;
+      font-weight: bold;
+    }
+
+    &__list {
+      list-style-type: none;
+    }
+
+    &__list__item {
+      color: $grey-color;
+      font-family: 'Open Sans', sans-serif;
+      font-size: $font14;
+      text-transform: uppercase;
+    }
+  }
+
+  &__content__blocks-options {
+    background: url('../img/home-page/option.png') no-repeat;
+  }
+
+  &__content__blocks-design {
+    background: url('../img/home-page/design.png') no-repeat;
+  }
+
+  &__content__blocks-commerce {
+    background: url('../img/home-page/commerce.png') no-repeat;
+  }
+
+  &__content__blocks-customize {
+    background: url('../img/home-page/customize.png') no-repeat;
+  }
+
+  &__img {
+    @media screen and (max-width: $screen1000) {
+      height: auto;
+      margin: 0;
+      width: 95%;
+    }
+
+    @media screen and (max-width: $screen768) {
+      display: block;
+      margin: auto;
+    }
+  }
+}

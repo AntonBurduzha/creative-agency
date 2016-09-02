@@ -6,3 +6,9 @@
   max-width: 2600px;
   width: 100%;
 }
+
+%clearfix {
+  clear: both;
+  content: '';
+  display: table;
+}

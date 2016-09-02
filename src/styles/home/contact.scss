@@ -1,3 +1,5 @@
+@import '../base';
+
 .contact {
   background-color: $bg-color;
   margin-top: 145px;
@@ -7,7 +9,7 @@
     margin-top: 50px;
   }
 
-  .contact__content {
+  &__content {
     float: right;
     width: 490px;
 
@@ -20,14 +22,18 @@
       margin-left: 10px;
     }
 
-    .contact__title {
+    &__title {
       color: $white-color;
       font-family: 'Montserrat', sans-serif;
       font-size: $font30;
       font-weight: bold;
+
+      @media screen and (max-width: $screen768) {
+        text-align: center;
+      }
     }
 
-    .contact__btn {
+    &__btn {
       background-color: $white-color;
       border: 0;
       border-radius: 0;
@@ -37,6 +43,12 @@
       height: 50px;
       width: 165px;
 
+      @media screen and (max-width: $screen768) {
+        display: block;
+        margin: auto;
+        margin-bottom: 20px;
+      }
+
       &:hover,
       &:focus {
         background-color: $getin-btn-hover;
@@ -44,7 +56,8 @@
     }
   }
 
-  .contact__message {
+  &__form {
+    @extend %clearfix;
     background-color: $white-color;
     padding: 20px;
     width: 550px;
@@ -58,7 +71,7 @@
       width: 95%;
     };
 
-    .message__title {
+    &__title {
       color: $header-color;
       font-family: 'Montserrat', sans-serif;
       font-size: $font24;
@@ -71,13 +84,13 @@
       }
     }
 
-    .message-description {
+    &__description {
       color: $grey-color;
       font-family: 'Open Sans', sans-serif;
       font-size: $font16;
     }
 
-    .message__email {
+    &__email {
       border-radius: 0;
       color: $grey-color;
       display: block;
@@ -92,7 +105,7 @@
       }
     }
 
-    .message__btn {
+    &__btn {
       background-color: $bg-color;
       border: 0;
       border-radius: 0;
@@ -108,9 +121,4 @@
     }
   }
 
-  .clearfix {
-    clear: both;
-    content: '';
-    display: table;
-  }
 }

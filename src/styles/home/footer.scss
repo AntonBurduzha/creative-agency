@@ -1,7 +1,7 @@
 .footer {
   padding: 45px 0 50px;
 
-  .footer__navlist {
+  &__navlist {
     list-style-type: none;
     margin-left: 80px;
 
@@ -13,7 +13,7 @@
       text-align: center;
     }
 
-    .navlist__item {
+    &__item {
       display: inline;
       padding: 0 17px;
 
@@ -22,7 +22,7 @@
       }
     }
 
-    .navlist__link {
+    &__link {
       color: $grey-color;
       font-family: 'Open Sans', sans-serif;
       font-size: $font14;
@@ -41,7 +41,7 @@
     }
   }
 
-  .footer__content {
+  &__content {
     float: right;
     margin-right: 80px;
     width: 350px;
@@ -56,7 +56,7 @@
     }
   }
 
-  .footer__copyright {
+  &__content__copyright {
     color: $grey-color;
     float: right;
     font-family: 'Open Sans', sans-serif;
@@ -75,7 +75,7 @@
     }
   }
 
-  .footer__img--social {
+  &__content__img-social {
     float: right;
 
     &:hover {

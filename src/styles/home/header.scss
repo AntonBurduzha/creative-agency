@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Montserrat';
+@import '../fonts';
 
 .header-container {
   background-image: url('../img/home-page/header-bg.png');
@@ -8,7 +8,7 @@
   .header {
     padding-top: 40px;
 
-    .header__logo {
+    &__logo {
       color: $header-color;
       font-family: 'Montserrat', sans-serif;
       font-size: $font18;
@@ -17,7 +17,7 @@
       text-transform: uppercase;
     }
 
-    .header__btn {
+    &__btn {
       background: url('../img/home-page/menu-btn.jpg') no-repeat center;
       background-color: $white-color;
       display: none;
@@ -30,7 +30,7 @@
       }
     }
 
-    .header__subtitle {
+    &__subtitle {
       background-color: $bg-color;
       color: $header-color;
       font-family: 'Montserrat', sans-serif;
@@ -45,7 +45,7 @@
       width: 100px;
     }
 
-    .header__title {
+    &__title {
       border: 10px solid $header-color;
       color: $header-color;
       font-family: 'Montserrat', sans-serif;
@@ -63,7 +63,7 @@
       }
     }
 
-    .header__description {
+    &__description {
       color: $header-color;
       font-family: 'Times New Roman';
       font-size: $font16;
@@ -74,84 +74,6 @@
 
       @media screen and (max-width: $screen600) {
         width: auto;
-      }
-    }
-  }
-
-  .history-content {
-    padding-top: 120px;
-
-    .history__img {
-      float: right;
-      height: auto;
-
-      @media screen and (max-width: $screen1200) {
-        display: block;
-        float: none;
-        margin: auto;
-        width: 95%;
-      }
-    }
-
-    .history__title {
-      background: url('../img/home-page/title-bg.png') no-repeat bottom left;
-      color: $header-color;
-      font-family: 'Montserrat', sans-serif;
-      font-size: $font30;
-      font-weight: bold;
-      margin-top: 25px;
-      position: relative;
-      text-transform: uppercase;
-
-
-      @media screen and (max-width: $screen768) {
-        margin: auto;
-        margin-bottom: 20px;
-        margin-top: 30px;
-        width: 90%;
-      }
-    }
-
-    .history__content {
-      margin-right: 6.25%;
-      width: 550px;
-
-      @media screen and (max-width: $screen1200) {
-        width: auto;
-      }
-
-      @media screen and (max-width: $screen768) {
-        margin: auto;
-        width: 90%;
-      }
-    }
-
-    .history__description {
-      color: $header-color;
-      font-family: 'Times New Roman';
-      font-size: $font16;
-    }
-
-    .history__btn {
-      background-color: $bg-color;
-      border: 0;
-      border-radius: 0;
-      color: $white-color;
-      float: right;
-      font-family: 'Montserrat', sans-serif;
-      font-weight: bold;
-      height: 50px;
-      margin-top: 30px;
-      width: 150px;
-
-      &:hover,
-      &:focus {
-        background-color: $more-btn-hover;
-      }
-
-      @media screen and (max-width: $screen768) {
-        float: left;
-        margin-top: 0;
       }
     }
   }
