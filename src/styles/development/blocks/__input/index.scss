@@ -1,0 +1,23 @@
+@import '../../../fonts';
+
+.email-box-contact [type='text'] {
+  border: 1px solid $grey-color;
+  border-radius: 0;
+  border-right: 0;
+  color: $grey-color;
+  display: block;
+  float: left;
+  font-family: 'Montserrat', sans-serif;
+  font-size: $font11;
+  font-weight: bold;
+  width: 370px;
+
+  &:focus {
+    border: 1px solid $bg-color;
+  }
+
+  @media screen and (max-width: $screen1170) {
+    width: 200px;
+  }
+}
+

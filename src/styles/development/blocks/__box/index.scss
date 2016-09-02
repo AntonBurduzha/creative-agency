@@ -1,0 +1,57 @@
+@import '../../../base';
+
+.box-features {
+  margin-top: 25px;
+  padding-top: 40px;
+  width: 230px;
+
+  @media screen and (max-width: $screen1000) {
+    width: 160px;
+  }
+
+  @media screen and (max-width: $screen767) {
+    width: 230px;
+  }
+}
+
+.box-options {
+  background: url('../img/home-page/option.png') no-repeat;
+}
+
+.box-design {
+  background: url('../img/home-page/design.png') no-repeat;
+}
+
+.box-commerce {
+  background: url('../img/home-page/commerce.png') no-repeat;
+}
+
+.box-customize {
+  background: url('../img/home-page/customize.png') no-repeat;
+}
+
+.box-desktop-category {
+  margin: 0;
+}
+
+.box-mobile-category {
+  @media screen and (max-width: $screen767) {
+    display: none;
+  }
+}
+
+.box-contact {
+  @extend %clearfix;
+  background-color: $white-color;
+  padding: 20px;
+  width: 550px;
+
+  @media screen and (max-width: $screen1170) {
+    width: auto;
+  }
+
+  @media screen and (max-width: $screen768) {
+    margin: auto;
+    width: 95%;
+  };
+}

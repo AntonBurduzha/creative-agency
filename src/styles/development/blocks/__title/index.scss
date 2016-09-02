@@ -1,0 +1,108 @@
+@import '../../../fonts';
+
+.title-header {
+  border: 10px solid $header-color;
+  color: $header-color;
+  font-family: 'Montserrat', sans-serif;
+  font-size: $font48;
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 20px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 550px;
+
+  @media screen and (max-width: $screen600) {
+    padding: 5px 10px;
+    width: auto;
+  }
+}
+
+.title-history {
+  background: url('../img/home-page/title-bg.png') no-repeat bottom left;
+  color: $header-color;
+  font-family: 'Montserrat', sans-serif;
+  font-size: $font30;
+  font-weight: bold;
+  margin-top: 25px;
+  position: relative;
+  text-transform: uppercase;
+
+
+  @media screen and (max-width: $screen768) {
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    width: 90%;
+  }
+}
+
+.title-choose {
+  background: url('../img/home-page/title-bg.png') no-repeat bottom left;
+  color: $header-color;
+  font-family: 'Montserrat', sans-serif;
+  font-size: $font30;
+  font-weight: bold;
+  margin: auto;
+  margin-top: 25px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  width: 260px;
+}
+
+.title-features {
+  color: $header-color;
+  font-family: 'Montserrat', sans-serif;
+  font-size: $font18;
+  font-weight: bold;
+}
+
+.title-portfolio {
+  background: url('../img/home-page/title-bg.png') no-repeat bottom left;
+  color: $header-color;
+  font-family: 'Montserrat', sans-serif;
+  font-size: $font30;
+  font-weight: bold;
+  margin: auto;
+  text-align: center;
+  text-transform: uppercase;
+  width: 250px;
+}
+
+.title-category {
+  color: $header-color;
+  font-family: 'Montserrat', sans-serif;
+  font-size: $font30;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 250px;
+
+  @media screen and (max-width: $screen1000) {
+    width: auto;
+  }
+}
+
+.title-content-contact {
+  color: $white-color;
+  font-family: 'Montserrat', sans-serif;
+  font-size: $font30;
+  font-weight: bold;
+
+  @media screen and (max-width: $screen768) {
+    text-align: center;
+  }
+}
+
+.title-box-contact {
+  color: $header-color;
+  font-family: 'Montserrat', sans-serif;
+  font-size: $font24;
+  font-weight: bold;
+  margin-bottom: 15px;
+  width: 340px;
+
+  @media screen and (max-width: $screen1170) {
+    width: auto;
+  }
+}

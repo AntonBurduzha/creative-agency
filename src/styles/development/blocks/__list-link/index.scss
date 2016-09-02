@@ -1,0 +1,17 @@
+@import '../../../fonts';
+
+.navlist__link-footer {
+  color: $grey-color;
+  font-family: 'Open Sans', sans-serif;
+  font-size: $font14;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  &:hover {
+    color: $dark-grey;
+  }
+
+  @media screen and (max-width: $screen1070) {
+    font-size: $font12;
+  }
+}
