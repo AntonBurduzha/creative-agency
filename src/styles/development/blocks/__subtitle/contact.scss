@@ -1,0 +1,33 @@
+@import '../../../fonts';
+
+.subtitle-header-contact {
+  color: $header-color;
+  font-family: 'Montserrat', sans-serif;
+  font-size: $font14;
+  font-weight: bold;
+  letter-spacing: .5px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.subtitle-aboutUS {
+  color: $header-color;
+  font-family: 'Open Sans', sans-serif;
+  font-size: $font14;
+  font-weight: bold;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+}
+
+.subtitle-client {
+  background-color: $bg-color;
+  color: $white-color;
+  font-family: 'Montserrat', sans-serif;
+  font-size: $font14;
+  font-weight: bold;
+  margin: auto;
+  padding: 5px 10px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 95px;
+}
