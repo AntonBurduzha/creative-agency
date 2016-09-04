@@ -1,0 +1,82 @@
+@import '../../../fonts';
+
+.input-contact-us-name[type='text'] {
+  background-color: $light-grey;
+  border: 1px solid $input-border;
+  border-radius: 0;
+  display: inline-block;
+  color: $grey-color;
+  font-family: 'Montserrat', sans-serif;
+  font-size: $font11;
+  font-weight: bold;
+  margin-bottom: 30px;
+  width: 47%;
+
+  @media screen and (max-width: $screen660) {
+    display: block;
+    width: 100%;
+  }
+
+  &:focus {
+    border: 1px solid $grey-color;
+  }
+}
+
+.input-contact-us-email[type='text'] {
+  background-color: $light-grey;
+  border: 1px solid $input-border;
+  border-radius: 0;
+  display: inline-block;
+  float: right;
+  color: $grey-color;
+  font-family: 'Montserrat', sans-serif;
+  font-size: $font11;
+  font-weight: bold;
+  margin-bottom: 30px;
+  width: 47%;
+
+  @media screen and (max-width: $screen660) {
+    display: block;
+    float: none;
+    width: 100%;
+  }
+
+  &:focus {
+    border: 1px solid $grey-color;
+  }
+}
+
+.input-contact-us-object[type='text'] {
+  background-color: $light-grey;
+  border: 1px solid $input-border;
+  border-radius: 0;
+  display: block;
+  color: $grey-color;
+  font-family: 'Montserrat', sans-serif;
+  font-size: $font11;
+  font-weight: bold;
+  margin-bottom: 30px;
+  width: 100%;
+
+  &:focus {
+    border: 1px solid $grey-color;
+  }
+}
+
+.input-contact-us-message[type='text'] {
+  background-color: $light-grey;
+  border: 1px solid $input-border;
+  border-radius: 0;
+  display: block;
+  height: 195px;
+  color: $grey-color;
+  font-family: 'Montserrat', sans-serif;
+  font-size: $font11;
+  font-weight: bold;
+  margin-bottom: 30px;
+  width: 100%;
+
+  &:focus {
+    border: 1px solid $grey-color;
+  }
+}

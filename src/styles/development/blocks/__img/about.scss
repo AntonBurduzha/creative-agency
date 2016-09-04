@@ -1,0 +1,29 @@
+.img-team {
+  display: block;
+  margin: auto;
+  margin-bottom: 60px;
+  width: 80%;
+
+  @media screen and (max-width: $screen1366) {
+    margin-bottom: 30px;
+  }
+
+  @media screen and (max-width: $screen1200) {
+    height: auto;
+    width: 100%;
+  }
+}
+
+.img-client {
+  height: auto;
+
+  @media screen and (max-width: $screen1170) {
+    width: 100%;
+  }
+
+  @media screen and (max-width: $screen768) {
+    display: block;
+    margin: auto;
+    margin-top: 35px;
+  }
+}

@@ -1,29 +1,24 @@
-.img-team {
+.img-contact-us-social {
   display: block;
-  margin: auto;
-  margin-bottom: 60px;
-  width: 80%;
 
-  @media screen and (max-width: $screen1366) {
-    margin-bottom: 30px;
-  }
-
-  @media screen and (max-width: $screen1200) {
-    height: auto;
-    width: 100%;
+  &:hover {
+    opacity: .75;
   }
 }
 
-.img-client {
-  height: auto;
-
-  @media screen and (max-width: $screen1170) {
-    width: 100%;
+.img-contact-us-map {
+  @media screen and (max-width: $screen1366) {
+    width: 95%;
   }
 
   @media screen and (max-width: $screen768) {
+    width: 75%;
+  }
+
+  @media screen and (max-width: $screen767) {
     display: block;
     margin: auto;
-    margin-top: 35px;
+    margin-top: 30px;
+    width: 90%;
   }
 }

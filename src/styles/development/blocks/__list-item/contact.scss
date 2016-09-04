@@ -1,7 +1,13 @@
 @import '../../../fonts';
 
-.description-contact-us {
+.list-item-contact-us {
   color: $header-color;
   font-family: 'Open Sans', sans-serif;
   font-size: $font14;
 }
+
+.list-item-contact-us-email {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+

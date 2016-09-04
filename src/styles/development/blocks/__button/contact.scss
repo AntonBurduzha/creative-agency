@@ -1,33 +1,20 @@
 @import '../../../fonts';
 @import '../../../base';
 
-.button-read-more {
+.button-contact-us-send {
   background-color: $bg-color;
   border: 0;
   border-radius: 0;
   color: $white-color;
-  display: inline-block;
-  float: right;
+  display: block;
   font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-  height: 50px;
-  margin-right: 30px;
-  width: 150px;
+  height: 45px;
+  margin-bottom: 90px;
+  width: 160px;
 
   &:hover,
   &:focus {
     background-color: $more-btn-hover;
     color: $white-color;
-  }
-
-  @media screen and (max-width: $screen1170) {
-    display: block;
-    float: none;
-    margin-left: 30px;
-    margin-right: 0;
-  }
-
-  @media screen and (max-width: $screen1170) {
-    margin: auto;
   }
 }

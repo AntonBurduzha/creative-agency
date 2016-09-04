@@ -1,0 +1,78 @@
+.header-background-about {
+  background-image: url('../img/about-page/header-bg.png');
+  background-repeat: no-repeat;
+  background-size: 100% 500px;
+  height: 500px;
+
+  .header {
+    padding-top: 35px;
+  }
+}
+
+.about {
+  padding-top: 140px;
+
+  @media screen and (max-width: $screen768) {
+    padding-top: 80px;
+  }
+}
+
+.benefit {
+  padding-top: 100px;
+
+  @media screen and (max-width: $screen768) {
+    padding-top: 60px;
+  }
+}
+
+.benefits {
+  margin: auto;
+  padding-top: 80px;
+  width: 90%;
+
+  @media screen and (max-width: $screen1366) {
+    width: 95%;
+  }
+
+  @media screen and (max-width: $screen767) {
+    width: 90%;
+  }
+}
+
+.dream {
+  padding-top: 100px;
+
+  @media screen and (max-width: $screen768) {
+    padding-top: 60px;
+  }
+}
+
+.team {
+  margin: auto;
+  padding-top: 85px;
+  width: 85%;
+
+  @media screen and (max-width: $screen1366) {
+    width: 90%;
+  }
+}
+
+.read-more {
+  margin: auto;
+  width: 90%;
+}
+
+.client {
+  margin: auto;
+  padding-bottom: 50px;
+  padding-top: 140px;
+  width: 90%;
+
+  @media screen and (max-width: $screen1000) {
+    padding-bottom: 10px;
+  }
+
+  @media screen and (max-width: $screen768) {
+    padding-top: 80px;
+  }
+}

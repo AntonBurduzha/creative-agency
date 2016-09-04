@@ -1,0 +1,62 @@
+@import '../../../fonts';
+
+.title-header-about {
+  color: $header-color;
+  font-family: 'Montserrat', sans-serif;
+  font-size: $font36;
+  font-weight: bold;
+  margin-top: 170px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.title-aboutUs {
+  background: url('../img/home-page/title-bg.png') no-repeat bottom left;
+  color: $header-color;
+  font-family: 'Montserrat', sans-serif;
+  font-size: $font30;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.title-benefit {
+  background: url('../img/home-page/title-bg.png') no-repeat bottom left;
+  color: $header-color;
+  font-family: 'Montserrat', sans-serif;
+  font-size: $font30;
+  font-weight: bold;
+  margin: auto;
+  text-align: center;
+  text-transform: uppercase;
+  width: 250px;
+}
+
+.title-benefits {
+  color: $header-color;
+  font-family: 'Montserrat', sans-serif;
+  font-size: $font18;
+  font-weight: bold;
+  margin-left: 50px;
+}
+
+.title-benefits-ipad {
+  @media screen and (max-width: $screen768) {
+    margin-bottom: 5px;
+  }
+
+  @media screen and (max-width: $screen767) {
+    margin-bottom: 20px;
+  }
+}
+
+.title-dream {
+  background: url('../img/home-page/title-bg.png') no-repeat bottom left;
+  color: $header-color;
+  font-family: 'Montserrat', sans-serif;
+  font-size: $font30;
+  font-weight: bold;
+  margin: auto;
+  margin-bottom: 15px;
+  width: 280px;
+}
+

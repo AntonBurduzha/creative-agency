@@ -1,0 +1,61 @@
+@import '../../../fonts';
+
+.description-aboutUs {
+  color: $header-color;
+  font-family: 'Open Sans', sans-serif;
+  font-size: $font14;
+}
+
+.description-benefit {
+  color: $header-color;
+  font-family: 'Open Sans', sans-serif;
+  font-size: $font14;
+  margin: auto;
+  margin-top: 10px;
+  text-align: center;
+  width: 730px;
+
+  @media screen and (max-width: $screen768) {
+    width: 90%;
+  }
+}
+
+.description-benefits {
+  color: $header-color;
+  font-family: 'Open Sans', sans-serif;
+  font-size: $font14;
+}
+
+.description-dream {
+  color: $header-color;
+  font-family: 'Open Sans', sans-serif;
+  font-size: $font14;
+  margin: auto;
+  text-align: center;
+  width: 720px;
+
+  @media screen and (max-width: $screen768) {
+    width: 90%;
+  }
+}
+
+.description-read-more {
+  color: $dark-grey;
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: $font14;
+  margin-left: 30px;
+  margin-top: 15px;
+
+  @media screen and (max-width: $screen768) {
+    margin-left: 0;
+    text-align: center;
+  }
+}
+
+.description-client {
+  color: $dark-grey;
+  font-family: 'Open Sans', sans-serif;
+  font-size: $font14;
+  text-align: center;
+}
