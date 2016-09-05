@@ -1,0 +1,40 @@
+.list-advantage {
+  display: inline-block;
+  list-style-type: none;
+
+  @media screen and (max-width: $screen767) {
+    width: 200px;
+  }
+
+  @media screen and (max-width: $screen460) {
+    display: block;
+    margin: auto;
+  }
+}
+
+.list-advantage-right {
+  margin-left: 100px;
+
+  @media screen and (max-width: $screen1170) {
+    float: right;
+    margin-left: 0;
+  }
+
+  @media screen and (max-width: $screen902) {
+    float: none;
+  }
+
+  @media screen and (max-width: $screen767) {
+    float: right;
+  }
+
+  @media screen and (max-width: $screen460) {
+    float: none;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+}
+
+.list-price {
+  margin-bottom: 40px;
+}

@@ -1,0 +1,11 @@
+@import '../../../fonts';
+
+.list-item-advantage {
+  background: url('../img/services-page/point.png') no-repeat;
+  background-position: center left;
+  color: $header-color;
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: $font14;
+  padding-left: 20px;
+}

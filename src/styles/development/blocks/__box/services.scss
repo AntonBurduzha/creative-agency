@@ -1,0 +1,19 @@
+.box-property {
+  width: 530px;
+
+  @media screen and (max-width: $screen1200) {
+    width: 100%;
+  }
+
+  @media screen and (max-width: $screen1170) {
+    width: 230px;
+  }
+
+  @media screen and (max-width: $screen768) {
+    width: 100%;
+  }
+}
+
+.box-property-left {
+  float: right;
+}

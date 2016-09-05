@@ -1,0 +1,37 @@
+@import '../../../fonts';
+
+.description-doing {
+  color: $header-color;
+  font-family: 'Open Sans', sans-serif;
+  font-size: $font14;
+  margin: auto;
+  margin-top: 15px;
+  text-align: center;
+  width: 720px;
+
+  @media screen and (max-width: $screen768) {
+    width: auto;
+  }
+}
+
+.description-advantage {
+  color: $header-color;
+  font-family: 'Open Sans', sans-serif;
+  font-size: $font14;
+  margin-bottom: 40px;
+
+  @media screen and (max-width: $screen767) {
+    text-align: center;
+  }
+
+  @media screen and (max-width: $screen460) {
+    margin-bottom: 20px;
+  }
+}
+
+.description-property {
+  color: $header-color;
+  font-family: 'Open Sans', sans-serif;
+  font-size: $font14;
+  text-align: center;
+}
