@@ -1,0 +1,11 @@
+.img-blog-theme {
+  display: block;
+
+  @media screen and (max-width: $screen902) {
+    width: 100%;
+  }
+}
+
+.img-blog-nav {
+  display: block;
+}

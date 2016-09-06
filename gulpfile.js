@@ -4,6 +4,7 @@ var sassLint = require('gulp-sass-lint');
 var postcss = require('gulp-postcss');
 var autoprefixer = require('autoprefixer');
 var spritesmith = require('gulp.spritesmith');
+var replace = require('gulp-replace');
 
 gulp.task('html', function () {
     gulp.src('src/*.html')
@@ -55,6 +56,12 @@ gulp.task('vendor', function () {
         .pipe(gulp.dest('dist/js'));
     gulp.src('node_modules/jquery-lazyload/jquery.lazyload.js')
         .pipe(gulp.dest('dist/js'));
+});
+
+gulp.task('replace', function(){
+    gulp.src(['dist/css/skeleton.css'])
+        .pipe(replace('@media (min-width: 550px)', '@media (min-width: 768px)'))
+        .pipe(gulp.dest('dist/css/skeleton-changed.css'));
 });
 
 gulp.task('sprite', function () {

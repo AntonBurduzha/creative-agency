@@ -85,7 +85,7 @@
   width: 360px;
 
   &:hover {
-    box-shadow: 0px 0px 40px #999;
+    box-shadow: 0 0 40px $grey-color;
   }
 
   @media screen and (max-width: $screen1200) {

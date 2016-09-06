@@ -1,0 +1,22 @@
+.container-blog {
+  margin: auto;
+  width: 1170px;
+
+  @media screen and (max-width: $screen1366) {
+    width: auto;
+  }
+}
+
+.blog {
+  margin: auto;
+  padding-top: 140px;
+  width: 90%;
+
+  @media screen and (max-width: $screen1200) {
+    width: 95%;
+  }
+
+  @media screen and (max-width: $screen1170) {
+    width: 90%;
+  }
+}

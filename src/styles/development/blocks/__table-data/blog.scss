@@ -1,0 +1,11 @@
+@import '../../../fonts';
+
+.table-data-blog {
+  color: $header-color;
+  font-family: 'Open Sans', sans-serif;
+  font-size: $font14;
+
+  &:first-child {
+    padding-left: 10px;
+  }
+}

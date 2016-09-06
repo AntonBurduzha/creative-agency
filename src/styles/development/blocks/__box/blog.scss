@@ -1,0 +1,46 @@
+.box-blog-main {
+  display: inline-block;
+
+  @media screen and (max-width: $screen1170) {
+    display: block;
+    margin: auto;
+  }
+}
+
+.box-blog-aside {
+  @media screen and (max-width: $screen1170) {
+    display: inline-block;
+    margin: auto;
+    vertical-align: top;
+    width: 265px;
+
+    @media screen and (max-width: $screen767) {
+      display: block;
+    }
+  }
+}
+
+.box-blog-aside-left {
+  margin-right: 30px;
+
+  @media screen and (max-width: $screen767) {
+    margin-right: 0;
+  }
+}
+
+.box-blog {
+  margin-top: 25px;
+  padding: 10px 0 0 95px;
+}
+
+.box-blog-first {
+  background: url('../img/blog-page/post1.png') no-repeat;
+}
+
+.box-blog-second {
+  background: url('../img/blog-page/post2.png') no-repeat;
+}
+
+.box-blog-third {
+  background: url('../img/blog-page/post3.png') no-repeat;
+}

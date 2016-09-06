@@ -1,0 +1,34 @@
+.content-blog {
+  margin-bottom: 90px;
+
+  @media screen and (max-width: $screen1170) {
+    margin: auto;
+    margin-bottom: 40px;
+    width: 750px;
+  }
+
+  @media screen and (max-width: $screen902) {
+    width: auto;
+  }
+}
+
+.content-blog-aside {
+  display: inline-block;
+  margin-left: 10%;
+  vertical-align: top;
+  width: 265px;
+
+  @media screen and (max-width: $screen1280) {
+    margin-left: 4%;
+  }
+
+  @media screen and (max-width: $screen1170) {
+    display: block;
+    margin: auto;
+    width: 630px;
+
+    @media screen and (max-width: $screen767) {
+      width: 265px;
+    }
+  }
+}

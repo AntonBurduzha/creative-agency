@@ -1,0 +1,15 @@
+.input-search[type='text'] {
+  background: $input-border url('../img/blog-page/search.png') no-repeat;
+  background-position: 230px center;
+  border: 0;
+  border-radius: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: $font12;
+  font-weight: bold;
+  letter-spacing: .3px;
+  width: 100%;
+
+  &:focus {
+    border: 0;
+  }
+}
