@@ -1,3 +1,5 @@
+@import '../../../../../dist/sprites/sprite';
+
 .box-blog-main {
   display: inline-block;
 
@@ -21,7 +23,9 @@
 }
 
 .box-blog-aside-left {
-  margin-right: 30px;
+  @media screen and (max-width: $screen1170) {
+    margin-right: 30px;
+  }
 
   @media screen and (max-width: $screen767) {
     margin-right: 0;
@@ -34,13 +38,19 @@
 }
 
 .box-blog-first {
-  background: url('../img/blog-page/post1.png') no-repeat;
+  @include sprite($post1);
+  background-repeat: no-repeat;
+  width: 265px;
 }
 
 .box-blog-second {
-  background: url('../img/blog-page/post2.png') no-repeat;
+  @include sprite($post2);
+  background-repeat: no-repeat;
+  width: 265px;
 }
 
 .box-blog-third {
-  background: url('../img/blog-page/post3.png') no-repeat;
+  @include sprite($post3);
+  background-repeat: no-repeat;
+  width: 265px;
 }

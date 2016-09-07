@@ -1,5 +1,3 @@
-@import '../../../fonts';
-
 .input-contact-us-name[type='text'] {
   background-color: $light-grey;
   border: 1px solid $input-border;
@@ -63,7 +61,7 @@
   }
 }
 
-.input-contact-us-message[type='text'] {
+.input-contact-us-message {
   background-color: $light-grey;
   border: 1px solid $input-border;
   border-radius: 0;
