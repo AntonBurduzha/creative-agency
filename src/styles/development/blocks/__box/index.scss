@@ -1,9 +1,9 @@
 @import '../../../base';
-@import '../../../../../dist/sprites/sprite';
+@import '../../../sprite';
 
 .box-features {
   margin-top: 25px;
-  padding-top: 40px;
+
   width: 230px;
 
   @media screen and (max-width: $screen1000) {
@@ -13,22 +13,6 @@
   @media screen and (max-width: $screen767) {
     width: 230px;
   }
-}
-
-.box-options {
-  background: url('../img/home-page/option.png') no-repeat;
-}
-
-.box-design {
-  background: url('../img/home-page/design.png') no-repeat;
-}
-
-.box-commerce {
-  background: url('../img/home-page/commerce.png') no-repeat;
-}
-
-.box-customize {
-  background: url('../img/home-page/customize.png') no-repeat;
 }
 
 .box-desktop-category {

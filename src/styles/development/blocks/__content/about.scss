@@ -25,7 +25,6 @@
 }
 
 .content-benefits {
-  padding-top: 10px;
   width: 365px;
 
   @media screen and (max-width: $screen1366) {
@@ -53,30 +52,6 @@
   }
 }
 
-.content-benefits-responsive {
-  background: url('../img/about-page/icon-mobile.png') no-repeat top left;
-}
-
-.content-benefits-commerce {
-  background: url('../img/about-page/icon-commerce.png') no-repeat top left;
-}
-
-.content-benefits-options {
-  background: url('../img/about-page/icon-options.png') no-repeat top left;
-}
-
-.content-benefits-custom {
-  background: url('../img/about-page/icon-customize.png') no-repeat top left;
-}
-
-.content-benefits-wordpress {
-  background: url('../img/about-page/icon-wordpress.png') no-repeat top left;
-}
-
-.content-benefits-support {
-  background: url('../img/about-page/icon-support.png') no-repeat top left;
-}
-
 .content-read-more {
   @extend %clearfix;
   background-color: $light-grey;
@@ -95,12 +70,7 @@
 }
 
 .content-client {
-  background: url('../img/about-page/johndoe.png'), url('../img/about-page/pagination.png');
-  background-position: center top, center bottom;
-  background-repeat: no-repeat, no-repeat;
   float: right;
-  padding-bottom: 35px;
-  padding-top: 105px;
   width: 560px;
 
   @media screen and (max-width: $screen1200) {

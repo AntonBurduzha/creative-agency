@@ -31,19 +31,28 @@
 
 .title-benefits {
   color: $header-color;
+  display: inline-block;
   font-family: 'Montserrat', sans-serif;
   font-size: $font18;
   font-weight: bold;
-  margin-left: 50px;
+  margin: 10px 0 15px 15px;
+  vertical-align: top;
 }
 
 .title-benefits-ipad {
+  @media screen and (max-width: $screen1000) {
+    margin-top: 0;
+    width: 155px;
+  }
+
   @media screen and (max-width: $screen768) {
     margin-bottom: 5px;
   }
 
   @media screen and (max-width: $screen767) {
     margin-bottom: 20px;
+    margin-top: 10px;
+    width: auto;
   }
 }
 

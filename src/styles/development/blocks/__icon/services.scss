@@ -1,0 +1,42 @@
+@import '../../../sprite';
+
+.icon-property-keep {
+  @include sprite($keep);
+  display: block;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 5px;
+  width: 60px;
+}
+
+.icon-property-limits {
+  @include sprite($limits);
+  display: block;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 18px;
+  width: 60px;
+}
+
+.icon-property-ideas {
+  @include sprite($ideas);
+  display: block;
+  margin: auto;
+  margin-bottom: 30px;
+  width: 51px;
+}
+
+.icon-property-support {
+  @include sprite($support);
+  display: block;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 9px;
+  width: 60px;
+}
+
+.icon-checkbox {
+  @include sprite($point);
+  display: inline-block;
+  margin-right: 8px;
+}

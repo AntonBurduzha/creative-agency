@@ -11,7 +11,6 @@
 
 .content-property {
   display: inline-block;
-  padding-top: 70px;
   width: 230px;
 
   @media screen and (max-width: $screen1170) {
@@ -46,18 +45,7 @@
   }
 }
 
-.content-property-keep {
-  background: url('../img/services-page/keep.png') no-repeat top center;
-}
-
-.content-property-limits {
-  background: url('../img/services-page/limits.png') no-repeat;
-  background-position: center 15px;
-}
-
 .content-property-ideas {
-  background: url('../img/services-page/ideas.png') no-repeat top center;
-
   @media screen and (max-width: $screen768) {
     float: right;
   }
@@ -68,8 +56,6 @@
 }
 
 .content-property-support {
-  background: url('../img/services-page/support.png') no-repeat top center;
-
   @media screen and (max-width: $screen768) {
     float: right;
   }
@@ -80,7 +66,6 @@
 }
 
 .content-price {
-  background: url('../img/services-page/topline.png') no-repeat top center;
   padding: 32px 25px;
   width: 360px;
 
@@ -92,9 +77,14 @@
     width: auto;
   }
 
+  @media screen and (max-width: $screen768) {
+    padding: 32px 10px;
+  }
+
   @media screen and (max-width: $screen767) {
     background-size: 280px 15px;
     margin: auto;
+    padding: 32px 25px;
     width: 280px;
   }
 }

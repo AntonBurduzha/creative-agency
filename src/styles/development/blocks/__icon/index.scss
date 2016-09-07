@@ -1,0 +1,25 @@
+@import '../../../sprite';
+
+.icon-options {
+  @include sprite($option);
+  display: block;
+  margin-bottom: 25px;
+}
+
+.icon-design {
+  @include sprite($design);
+  display: block;
+  margin-bottom: 20px;
+}
+
+.icon-commerce {
+  @include sprite($commerce);
+  display: block;
+  margin-bottom: 20px;
+}
+
+.icon-customize {
+  @include sprite($customize);
+  display: block;
+  margin-bottom: 20px;
+}

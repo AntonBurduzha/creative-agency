@@ -65,15 +65,6 @@ gulp.task('autoprefixer', function () {
         .pipe(gulp.dest('./dist/css'));
 });
 
-gulp.task('sprite', function () {
-    var spriteData = gulp.src('src/img/sprites/*.png').pipe(spritesmith({
-        imgName: 'sprite.png',
-        cssName: 'sprite.scss',
-        algorithm: 'top-down'
-    }));
-    return spriteData.pipe(gulp.dest('dist/sprites'));
-});
-
 gulp.task('concat-css', function() {
     return gulp.src(['dist/css/normalize.css', 'dist/css/skeleton.css', 'dist/css/style.css'])
         .pipe(concat('bundle.css'))
@@ -86,4 +77,24 @@ gulp.task('concat-js', function() {
         .pipe(gulp.dest('dist/js'));
 });
 
-gulp.task('build', ['html', 'sass', 'images', 'vendor', 'replace', 'autoprefixer', 'concat-css', 'concat-js']);
+gulp.task('sprite', function () {
+    var spriteData = gulp.src('src/img/sprites/*.png').pipe(spritesmith({
+        imgName: 'sprite.png',
+        cssName: 'sprite.scss',
+        algorithm: 'top-down'
+    }));
+    return spriteData.pipe(gulp.dest('dist/sprites'));
+});
+
+gulp.task('sprite-style', function () {
+    gulp.src('dist/sprites/sprite.scss')
+        .pipe(gulp.dest('src/styles'));
+});
+
+gulp.task('replace-sprite', function(){
+    gulp.src(['src/styles/sprite.scss'])
+        .pipe(replace('background-image: url(#{$sprite-image});', 'background-image: url(../sprites/#{$sprite-image});'))
+        .pipe(gulp.dest('src/styles'));
+});
+
+gulp.task('build', ['html', 'sass', 'images', 'vendor', 'replace', 'autoprefixer']);
