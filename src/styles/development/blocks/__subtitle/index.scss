@@ -1,4 +1,13 @@
-.subtitle-header {
+.subtitle--logo {
+  color: $header-color;
+  font-family: 'Montserrat', sans-serif;
+  font-size: $font18;
+  font-weight: bold;
+  margin-left: 6.25%;
+  text-transform: uppercase;
+}
+
+.subtitle--main {
   background-color: $bg-color;
   color: $header-color;
   font-family: 'Montserrat', sans-serif;

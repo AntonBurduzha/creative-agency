@@ -1,290 +1,252 @@
-/*
-SCSS variables are information about icon's compiled state, stored under its original file name
-
-.icon-home {
-  width: $icon-home-width;
-}
-
-The large array-like variables contain all information about a single icon
-$icon-home: x y offset_x offset_y width height total_width total_height image_path;
-
-At the bottom of this section, we provide information about the spritesheet itself
-$spritesheet: width height image $spritesheet-sprites;
-*/
 $comment-name: 'comment';
-$comment-x: 0px;
+$comment-x: 0;
 $comment-y: 43px;
-$comment-offset-x: 0px;
+$comment-offset-x: 0;
 $comment-offset-y: -43px;
 $comment-width: 15px;
 $comment-height: 16px;
 $comment-total-width: 92px;
 $comment-total-height: 900px;
 $comment-image: 'sprite.png';
-$comment: (0px, 43px, 0px, -43px, 15px, 16px, 92px, 900px, 'sprite.png', 'comment', );
+$comment: (0, 43px, 0, -43px, 15px, 16px, 92px, 900px, 'sprite.png', 'comment', );
 $commerce-name: 'commerce';
-$commerce-x: 0px;
+$commerce-x: 0;
 $commerce-y: 83px;
-$commerce-offset-x: 0px;
+$commerce-offset-x: 0;
 $commerce-offset-y: -83px;
 $commerce-width: 28px;
 $commerce-height: 28px;
 $commerce-total-width: 92px;
 $commerce-total-height: 900px;
 $commerce-image: 'sprite.png';
-$commerce: (0px, 83px, 0px, -83px, 28px, 28px, 92px, 900px, 'sprite.png', 'commerce', );
+$commerce: (0, 83px, 0, -83px, 28px, 28px, 92px, 900px, 'sprite.png', 'commerce', );
 $customize-name: 'customize';
-$customize-x: 0px;
+$customize-x: 0;
 $customize-y: 59px;
-$customize-offset-x: 0px;
+$customize-offset-x: 0;
 $customize-offset-y: -59px;
 $customize-width: 32px;
 $customize-height: 24px;
 $customize-total-width: 92px;
 $customize-total-height: 900px;
 $customize-image: 'sprite.png';
-$customize: (0px, 59px, 0px, -59px, 32px, 24px, 92px, 900px, 'sprite.png', 'customize', );
+$customize: (0, 59px, 0, -59px, 32px, 24px, 92px, 900px, 'sprite.png', 'customize', );
 $design-name: 'design';
-$design-x: 0px;
+$design-x: 0;
 $design-y: 111px;
-$design-offset-x: 0px;
+$design-offset-x: 0;
 $design-offset-y: -111px;
 $design-width: 28px;
 $design-height: 28px;
 $design-total-width: 92px;
 $design-total-height: 900px;
 $design-image: 'sprite.png';
-$design: (0px, 111px, 0px, -111px, 28px, 28px, 92px, 900px, 'sprite.png', 'design', );
+$design: (0, 111px, 0, -111px, 28px, 28px, 92px, 900px, 'sprite.png', 'design', );
 $icon-commerce-name: 'icon-commerce';
-$icon-commerce-x: 0px;
+$icon-commerce-x: 0;
 $icon-commerce-y: 334px;
-$icon-commerce-offset-x: 0px;
+$icon-commerce-offset-x: 0;
 $icon-commerce-offset-y: -334px;
 $icon-commerce-width: 40px;
 $icon-commerce-height: 40px;
 $icon-commerce-total-width: 92px;
 $icon-commerce-total-height: 900px;
 $icon-commerce-image: 'sprite.png';
-$icon-commerce: (0px, 334px, 0px, -334px, 40px, 40px, 92px, 900px, 'sprite.png', 'icon-commerce', );
+$icon-commerce: (0, 334px, 0, -334px, 40px, 40px, 92px, 900px, 'sprite.png', 'icon-commerce', );
 $icon-customize-name: 'icon-customize';
-$icon-customize-x: 0px;
+$icon-customize-x: 0;
 $icon-customize-y: 294px;
-$icon-customize-offset-x: 0px;
+$icon-customize-offset-x: 0;
 $icon-customize-offset-y: -294px;
 $icon-customize-width: 40px;
 $icon-customize-height: 40px;
 $icon-customize-total-width: 92px;
 $icon-customize-total-height: 900px;
 $icon-customize-image: 'sprite.png';
-$icon-customize: (0px, 294px, 0px, -294px, 40px, 40px, 92px, 900px, 'sprite.png', 'icon-customize', );
+$icon-customize: (0, 294px, 0, -294px, 40px, 40px, 92px, 900px, 'sprite.png', 'icon-customize', );
 $icon-mobile-name: 'icon-mobile';
-$icon-mobile-x: 0px;
+$icon-mobile-x: 0;
 $icon-mobile-y: 174px;
-$icon-mobile-offset-x: 0px;
+$icon-mobile-offset-x: 0;
 $icon-mobile-offset-y: -174px;
 $icon-mobile-width: 40px;
 $icon-mobile-height: 40px;
 $icon-mobile-total-width: 92px;
 $icon-mobile-total-height: 900px;
 $icon-mobile-image: 'sprite.png';
-$icon-mobile: (0px, 174px, 0px, -174px, 40px, 40px, 92px, 900px, 'sprite.png', 'icon-mobile', );
+$icon-mobile: (0, 174px, 0, -174px, 40px, 40px, 92px, 900px, 'sprite.png', 'icon-mobile', );
 $icon-options-name: 'icon-options';
-$icon-options-x: 0px;
+$icon-options-x: 0;
 $icon-options-y: 214px;
-$icon-options-offset-x: 0px;
+$icon-options-offset-x: 0;
 $icon-options-offset-y: -214px;
 $icon-options-width: 40px;
 $icon-options-height: 40px;
 $icon-options-total-width: 92px;
 $icon-options-total-height: 900px;
 $icon-options-image: 'sprite.png';
-$icon-options: (0px, 214px, 0px, -214px, 40px, 40px, 92px, 900px, 'sprite.png', 'icon-options', );
+$icon-options: (0, 214px, 0, -214px, 40px, 40px, 92px, 900px, 'sprite.png', 'icon-options', );
 $icon-support-name: 'icon-support';
-$icon-support-x: 0px;
+$icon-support-x: 0;
 $icon-support-y: 374px;
-$icon-support-offset-x: 0px;
+$icon-support-offset-x: 0;
 $icon-support-offset-y: -374px;
 $icon-support-width: 40px;
 $icon-support-height: 40px;
 $icon-support-total-width: 92px;
 $icon-support-total-height: 900px;
 $icon-support-image: 'sprite.png';
-$icon-support: (0px, 374px, 0px, -374px, 40px, 40px, 92px, 900px, 'sprite.png', 'icon-support', );
+$icon-support: (0, 374px, 0, -374px, 40px, 40px, 92px, 900px, 'sprite.png', 'icon-support', );
 $icon-wordpress-name: 'icon-wordpress';
-$icon-wordpress-x: 0px;
+$icon-wordpress-x: 0;
 $icon-wordpress-y: 254px;
-$icon-wordpress-offset-x: 0px;
+$icon-wordpress-offset-x: 0;
 $icon-wordpress-offset-y: -254px;
 $icon-wordpress-width: 40px;
 $icon-wordpress-height: 40px;
 $icon-wordpress-total-width: 92px;
 $icon-wordpress-total-height: 900px;
 $icon-wordpress-image: 'sprite.png';
-$icon-wordpress: (0px, 254px, 0px, -254px, 40px, 40px, 92px, 900px, 'sprite.png', 'icon-wordpress', );
+$icon-wordpress: (0, 254px, 0, -254px, 40px, 40px, 92px, 900px, 'sprite.png', 'icon-wordpress', );
 $ideas-name: 'ideas';
-$ideas-x: 0px;
+$ideas-x: 0;
 $ideas-y: 506px;
-$ideas-offset-x: 0px;
+$ideas-offset-x: 0;
 $ideas-offset-y: -506px;
 $ideas-width: 51px;
 $ideas-height: 53px;
 $ideas-total-width: 92px;
 $ideas-total-height: 900px;
 $ideas-image: 'sprite.png';
-$ideas: (0px, 506px, 0px, -506px, 51px, 53px, 92px, 900px, 'sprite.png', 'ideas', );
+$ideas: (0, 506px, 0, -506px, 51px, 53px, 92px, 900px, 'sprite.png', 'ideas', );
 $johndoe-name: 'johndoe';
-$johndoe-x: 0px;
+$johndoe-x: 0;
 $johndoe-y: 800px;
-$johndoe-offset-x: 0px;
+$johndoe-offset-x: 0;
 $johndoe-offset-y: -800px;
 $johndoe-width: 85px;
 $johndoe-height: 100px;
 $johndoe-total-width: 92px;
 $johndoe-total-height: 900px;
 $johndoe-image: 'sprite.png';
-$johndoe: (0px, 800px, 0px, -800px, 85px, 100px, 92px, 900px, 'sprite.png', 'johndoe', );
+$johndoe: (0, 800px, 0, -800px, 85px, 100px, 92px, 900px, 'sprite.png', 'johndoe', );
 $keep-name: 'keep';
-$keep-x: 0px;
+$keep-x: 0;
 $keep-y: 458px;
-$keep-offset-x: 0px;
+$keep-offset-x: 0;
 $keep-offset-y: -458px;
 $keep-width: 60px;
 $keep-height: 48px;
 $keep-total-width: 92px;
 $keep-total-height: 900px;
 $keep-image: 'sprite.png';
-$keep: (0px, 458px, 0px, -458px, 60px, 48px, 92px, 900px, 'sprite.png', 'keep', );
+$keep: (0, 458px, 0, -458px, 60px, 48px, 92px, 900px, 'sprite.png', 'keep', );
 $like-name: 'like';
-$like-x: 0px;
+$like-x: 0;
 $like-y: 29px;
-$like-offset-x: 0px;
+$like-offset-x: 0;
 $like-offset-y: -29px;
 $like-width: 16px;
 $like-height: 14px;
 $like-total-width: 92px;
 $like-total-height: 900px;
 $like-image: 'sprite.png';
-$like: (0px, 29px, 0px, -29px, 16px, 14px, 92px, 900px, 'sprite.png', 'like', );
+$like: (0, 29px, 0, -29px, 16px, 14px, 92px, 900px, 'sprite.png', 'like', );
 $limits-name: 'limits';
-$limits-x: 0px;
+$limits-x: 0;
 $limits-y: 139px;
-$limits-offset-x: 0px;
+$limits-offset-x: 0;
 $limits-offset-y: -139px;
 $limits-width: 60px;
 $limits-height: 35px;
 $limits-total-width: 92px;
 $limits-total-height: 900px;
 $limits-image: 'sprite.png';
-$limits: (0px, 139px, 0px, -139px, 60px, 35px, 92px, 900px, 'sprite.png', 'limits', );
+$limits: (0, 139px, 0, -139px, 60px, 35px, 92px, 900px, 'sprite.png', 'limits', );
 $option-name: 'option';
-$option-x: 0px;
+$option-x: 0;
 $option-y: 15px;
-$option-offset-x: 0px;
+$option-offset-x: 0;
 $option-offset-y: -15px;
 $option-width: 32px;
 $option-height: 14px;
 $option-total-width: 92px;
 $option-total-height: 900px;
 $option-image: 'sprite.png';
-$option: (0px, 15px, 0px, -15px, 32px, 14px, 92px, 900px, 'sprite.png', 'option', );
+$option: (0, 15px, 0, -15px, 32px, 14px, 92px, 900px, 'sprite.png', 'option', );
 $pagination-name: 'pagination';
-$pagination-x: 0px;
-$pagination-y: 0px;
-$pagination-offset-x: 0px;
-$pagination-offset-y: 0px;
+$pagination-x: 0;
+$pagination-y: 0;
+$pagination-offset-x: 0;
+$pagination-offset-y: 0;
 $pagination-width: 92px;
 $pagination-height: 5px;
 $pagination-total-width: 92px;
 $pagination-total-height: 900px;
 $pagination-image: 'sprite.png';
-$pagination: (0px, 0px, 0px, 0px, 92px, 5px, 92px, 900px, 'sprite.png', 'pagination', );
+$pagination: (0, 0, 0, 0, 92px, 5px, 92px, 900px, 'sprite.png', 'pagination', );
 $point-name: 'point';
-$point-x: 0px;
+$point-x: 0;
 $point-y: 5px;
-$point-offset-x: 0px;
+$point-offset-x: 0;
 $point-offset-y: -5px;
 $point-width: 10px;
 $point-height: 10px;
 $point-total-width: 92px;
 $point-total-height: 900px;
 $point-image: 'sprite.png';
-$point: (0px, 5px, 0px, -5px, 10px, 10px, 92px, 900px, 'sprite.png', 'point', );
+$point: (0, 5px, 0, -5px, 10px, 10px, 92px, 900px, 'sprite.png', 'point', );
 $post1-name: 'post1';
-$post1-x: 0px;
+$post1-x: 0;
 $post1-y: 719px;
-$post1-offset-x: 0px;
+$post1-offset-x: 0;
 $post1-offset-y: -719px;
 $post1-width: 81px;
 $post1-height: 81px;
 $post1-total-width: 92px;
 $post1-total-height: 900px;
 $post1-image: 'sprite.png';
-$post1: (0px, 719px, 0px, -719px, 81px, 81px, 92px, 900px, 'sprite.png', 'post1', );
+$post1: (0, 719px, 0, -719px, 81px, 81px, 92px, 900px, 'sprite.png', 'post1', );
 $post2-name: 'post2';
-$post2-x: 0px;
+$post2-x: 0;
 $post2-y: 559px;
-$post2-offset-x: 0px;
+$post2-offset-x: 0;
 $post2-offset-y: -559px;
 $post2-width: 80px;
 $post2-height: 80px;
 $post2-total-width: 92px;
 $post2-total-height: 900px;
 $post2-image: 'sprite.png';
-$post2: (0px, 559px, 0px, -559px, 80px, 80px, 92px, 900px, 'sprite.png', 'post2', );
+$post2: (0, 559px, 0, -559px, 80px, 80px, 92px, 900px, 'sprite.png', 'post2', );
 $post3-name: 'post3';
-$post3-x: 0px;
+$post3-x: 0;
 $post3-y: 639px;
-$post3-offset-x: 0px;
+$post3-offset-x: 0;
 $post3-offset-y: -639px;
 $post3-width: 79px;
 $post3-height: 80px;
 $post3-total-width: 92px;
 $post3-total-height: 900px;
 $post3-image: 'sprite.png';
-$post3: (0px, 639px, 0px, -639px, 79px, 80px, 92px, 900px, 'sprite.png', 'post3', );
+$post3: (0, 639px, 0, -639px, 79px, 80px, 92px, 900px, 'sprite.png', 'post3', );
 $support-name: 'support';
-$support-x: 0px;
+$support-x: 0;
 $support-y: 414px;
-$support-offset-x: 0px;
+$support-offset-x: 0;
 $support-offset-y: -414px;
 $support-width: 60px;
 $support-height: 44px;
 $support-total-width: 92px;
 $support-total-height: 900px;
 $support-image: 'sprite.png';
-$support: (0px, 414px, 0px, -414px, 60px, 44px, 92px, 900px, 'sprite.png', 'support', );
+$support: (0, 414px, 0, -414px, 60px, 44px, 92px, 900px, 'sprite.png', 'support', );
 $spritesheet-width: 92px;
 $spritesheet-height: 900px;
 $spritesheet-image: 'sprite.png';
 $spritesheet-sprites: ($comment, $commerce, $customize, $design, $icon-commerce, $icon-customize, $icon-mobile, $icon-options, $icon-support, $icon-wordpress, $ideas, $johndoe, $keep, $like, $limits, $option, $pagination, $point, $post1, $post2, $post3, $support, );
 $spritesheet: (92px, 900px, 'sprite.png', $spritesheet-sprites, );
 
-/*
-The provided mixins are intended to be used with the array-like variables
 
-.icon-home {
-  @include sprite-width($icon-home);
-}
-
-.icon-email {
-  @include sprite($icon-email);
-}
-
-Example usage in HTML:
-
-`display: block` sprite:
-<div class="icon-home"></div>
-
-To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
-
-// CSS
-.icon {
-  display: inline-block;
-}
-
-// HTML
-<i class="icon icon-home"></i>
-*/
 @mixin sprite-width($sprite) {
   width: nth($sprite, 5);
 }
@@ -311,12 +273,6 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
   @include sprite-height($sprite);
 }
 
-/*
-The `sprites` mixin generates identical output to the CSS template
-  but can be overridden inside of SCSS
-
-@include sprites($spritesheet-sprites);
-*/
 @mixin sprites($sprites) {
   @each $sprite in $sprites {
     $sprite-name: nth($sprite, 10);
