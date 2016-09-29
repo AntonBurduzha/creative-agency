@@ -1,9 +1,5 @@
-@import '../../../base';
-@import '../../../sprite';
-
-.box-features {
+.features__item {
   margin-top: 25px;
-
   width: 230px;
 
   @media screen and (max-width: $screen1000) {
@@ -15,28 +11,12 @@
   }
 }
 
-.box-desktop-category {
+.category__item {
   margin: 0;
 }
 
-.box-mobile-category {
+.category__item--mobile {
   @media screen and (max-width: $screen767) {
     display: none;
   }
-}
-
-.box-contact {
-  @extend %clearfix;
-  background-color: $white-color;
-  padding: 20px;
-  width: 550px;
-
-  @media screen and (max-width: $screen1170) {
-    width: auto;
-  }
-
-  @media screen and (max-width: $screen768) {
-    margin: auto;
-    width: 95%;
-  };
 }

@@ -1,4 +1,4 @@
-.content-contact-us-form {
+.contact-us__article {
   float: right;
   width: 570px;
 
@@ -12,16 +12,3 @@
   }
 }
 
-.content-contact-us-info {
-  float: right;
-  width: 570px;
-
-  @media screen and (max-width: $screen1366) {
-    width: 90%;
-  }
-
-  @media screen and (max-width: $screen768) {
-    float: none;
-    margin: auto;
-  }
-}

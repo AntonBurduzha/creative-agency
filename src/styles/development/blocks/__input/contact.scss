@@ -1,4 +1,4 @@
-.input-contact-us-name[type='text'] {
+.input--contact-name[type='text'] {
   background-color: $light-grey;
   border: 1px solid $input-border;
   border-radius: 0;
@@ -20,7 +20,7 @@
   }
 }
 
-.input-contact-us-email[type='text'] {
+.input--contact-email[type='text'] {
   background-color: $light-grey;
   border: 1px solid $input-border;
   border-radius: 0;
@@ -44,7 +44,7 @@
   }
 }
 
-.input-contact-us-object[type='text'] {
+.input--contact-object[type='text'] {
   background-color: $light-grey;
   border: 1px solid $input-border;
   border-radius: 0;
@@ -61,7 +61,7 @@
   }
 }
 
-.input-contact-us-message {
+.input--contact-message {
   background-color: $light-grey;
   border: 1px solid $input-border;
   border-radius: 0;

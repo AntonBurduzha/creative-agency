@@ -10,7 +10,7 @@
   }
 }
 
-.img-features {
+.img--features {
   background-color: $input-border;
   @media screen and (max-width: $screen1000) {
     height: auto;
@@ -24,7 +24,7 @@
   }
 }
 
-.img-category {
+.img--category {
   background-color: $input-border;
   height: auto;
   margin-bottom: 25px;

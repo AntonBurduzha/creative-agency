@@ -1,3 +1,5 @@
+@import '../../../base';
+
 .history__article {
   margin-right: 6.25%;
   width: 550px;
@@ -12,7 +14,7 @@
   }
 }
 
-.content-features {
+.features__article {
   align-items: baseline;
   display: flex;
   flex-flow: row wrap;
@@ -29,7 +31,7 @@
   }
 }
 
-.content-category {
+.category__article {
   float: right;
   width: 170px;
 
@@ -40,7 +42,7 @@
   }
 }
 
-.content-contact {
+.contact__article {
   float: right;
   width: 490px;
 
@@ -52,6 +54,22 @@
   @media screen and (max-width: $screen768) {
     margin-left: 10px;
   }
+}
+
+.contact__article--form {
+  @extend %clearfix;
+  background-color: $white-color;
+  padding: 20px;
+  width: 550px;
+
+  @media screen and (max-width: $screen1170) {
+    width: auto;
+  }
+
+  @media screen and (max-width: $screen768) {
+    margin: auto;
+    width: 95%;
+  };
 }
 
 .footer__article {

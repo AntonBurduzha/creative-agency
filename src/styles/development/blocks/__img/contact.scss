@@ -1,4 +1,4 @@
-.img-contact-us-social {
+.img--social {
   display: block;
 
   &:hover {
@@ -6,7 +6,7 @@
   }
 }
 
-.img-contact-us-map {
+.img--map {
   background-color: $input-border;
 
   @media screen and (max-width: $screen1366) {
