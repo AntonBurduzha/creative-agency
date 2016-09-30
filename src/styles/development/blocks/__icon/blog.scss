@@ -1,6 +1,6 @@
 @import '../../../sprite';
 
-.icon-blog-comment {
+.icon--blog-comment {
   @include sprite($comment);
   display: inline-block;
   margin-left: 13px;
@@ -8,7 +8,7 @@
   vertical-align: middle;
 }
 
-.icon-blog-like {
+.icon--blog-like {
   @include sprite($like);
   display: inline-block;
   margin-left: 15px;

@@ -8,7 +8,7 @@
   text-transform: uppercase;
 }
 
-.title-aboutUs {
+.title--about {
   background: url('../img/home-page/title-bg.png') no-repeat bottom left;
   color: $header-color;
   font-family: 'Montserrat', sans-serif;
@@ -17,7 +17,7 @@
   text-transform: uppercase;
 }
 
-.title-benefit {
+.title--benefit {
   background: url('../img/home-page/title-bg.png') no-repeat bottom left;
   color: $header-color;
   font-family: 'Montserrat', sans-serif;
@@ -29,7 +29,7 @@
   width: 250px;
 }
 
-.title-benefits {
+.title--benefits {
   color: $header-color;
   display: inline-block;
   font-family: 'Montserrat', sans-serif;
@@ -39,7 +39,7 @@
   vertical-align: top;
 }
 
-.title-benefits-ipad {
+.title--benefits-ipad {
   @media screen and (max-width: $screen1000) {
     margin-top: 0;
     width: 155px;
@@ -56,7 +56,7 @@
   }
 }
 
-.title-dream {
+.title--dream {
   background: url('../img/home-page/title-bg.png') no-repeat bottom left;
   color: $header-color;
   font-family: 'Montserrat', sans-serif;

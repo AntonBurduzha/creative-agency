@@ -1,10 +1,10 @@
-.description-aboutUs {
+.text--about {
   color: $header-color;
   font-family: 'Open Sans', sans-serif;
   font-size: $font14;
 }
 
-.description-benefit {
+.text--benefit {
   color: $header-color;
   font-family: 'Open Sans', sans-serif;
   font-size: $font14;
@@ -18,13 +18,13 @@
   }
 }
 
-.description-benefits {
+.text--benefits {
   color: $header-color;
   font-family: 'Open Sans', sans-serif;
   font-size: $font14;
 }
 
-.description-dream {
+.text--dream {
   color: $header-color;
   font-family: 'Open Sans', sans-serif;
   font-size: $font14;
@@ -37,7 +37,7 @@
   }
 }
 
-.description-read-more {
+.text--read-more {
   color: $dark-grey;
   display: inline-block;
   font-family: 'Open Sans', sans-serif;
@@ -51,7 +51,7 @@
   }
 }
 
-.description-client {
+.text--client {
   color: $dark-grey;
   font-family: 'Open Sans', sans-serif;
   font-size: $font14;

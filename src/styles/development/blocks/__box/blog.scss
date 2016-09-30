@@ -1,55 +1,23 @@
 @import '../../../sprite';
 
-.box-blog-main {
-  display: inline-block;
-
-  @media screen and (max-width: $screen1170) {
-    display: block;
-    margin: auto;
-  }
-}
-
-.box-blog-aside {
-  @media screen and (max-width: $screen1170) {
-    display: inline-block;
-    margin: auto;
-    vertical-align: top;
-    width: 265px;
-
-    @media screen and (max-width: $screen767) {
-      display: block;
-    }
-  }
-}
-
-.box-blog-aside-left {
-  @media screen and (max-width: $screen1170) {
-    margin-right: 30px;
-  }
-
-  @media screen and (max-width: $screen767) {
-    margin-right: 0;
-  }
-}
-
-.box-blog {
+.blog__item--theme {
   margin-top: 25px;
   padding: 10px 0 0 95px;
 }
 
-.box-blog-first {
+.blog__item--first {
   @include sprite($post1);
   background-repeat: no-repeat;
   width: 265px;
 }
 
-.box-blog-second {
+.blog__item--second {
   @include sprite($post2);
   background-repeat: no-repeat;
   width: 265px;
 }
 
-.box-blog-third {
+.blog__item--third {
   @include sprite($post3);
   background-repeat: no-repeat;
   width: 265px;

@@ -1,36 +1,36 @@
 @import '../../../sprite';
 
-.icon-responsive {
+.icon--responsive {
   @include sprite($icon-mobile);
   display: inline-block;
 }
 
-.icon-commerce-benefits {
+.icon--commerce-benefits {
   @include sprite($icon-commerce);
   display: inline-block;
 }
 
-.icon-options-benefits {
+.icon--options-benefits {
   @include sprite($icon-options);
   display: inline-block;
 }
 
-.icon-custom-benefits {
+.icon--custom-benefits {
   @include sprite($icon-customize);
   display: inline-block;
 }
 
-.icon-wordpress {
+.icon--wordpress {
   @include sprite($icon-wordpress);
   display: inline-block;
 }
 
-.icon-support {
+.icon--support {
   @include sprite($icon-support);
   display: inline-block;
 }
 
-.icon-client {
+.icon--client {
   @include sprite($johndoe);
   display: block;
   margin: auto;
@@ -38,7 +38,7 @@
   width: 85px;
 }
 
-.icon-pagination-client {
+.icon--client-pages {
   @include sprite($pagination);
   display: block;
   margin: auto;
