@@ -1,4 +1,4 @@
-.content-advantage {
+.advantage__article {
   float: right;
   width: 560px;
 
@@ -9,63 +9,27 @@
   }
 }
 
-.content-property {
-  display: inline-block;
-  width: 230px;
+.property__article {
+  width: 530px;
+
+  @media screen and (max-width: $screen1200) {
+    width: 100%;
+  }
 
   @media screen and (max-width: $screen1170) {
-    display: block;
+    width: 230px;
   }
 
   @media screen and (max-width: $screen768) {
-    display: inline-block;
-  }
-
-  @media screen and (max-width: $screen600) {
-    display: block;
-    float: none;
-    margin: auto;
     width: 100%;
   }
 }
 
-.content-property-right {
+.property__article--left {
   float: right;
-
-  @media screen and (max-width: $screen1170) {
-    float: none;
-  }
-
-  @media screen and (max-width: $screen767) {
-    float: right;
-  }
-
-  @media screen and (max-width: $screen600) {
-    float: none;
-  }
 }
 
-.content-property-ideas {
-  @media screen and (max-width: $screen768) {
-    float: right;
-  }
-
-  @media screen and (max-width: $screen767) {
-    float: none;
-  }
-}
-
-.content-property-support {
-  @media screen and (max-width: $screen768) {
-    float: right;
-  }
-
-  @media screen and (max-width: $screen600) {
-    float: none;
-  }
-}
-
-.content-price {
+.price__article {
   padding: 32px 25px;
   width: 360px;
 
@@ -89,7 +53,7 @@
   }
 }
 
-.content-price-left {
+.price__article--left {
   float: right;
 
   @media screen and (max-width: $screen1200) {
@@ -97,6 +61,6 @@
   }
 }
 
-.content-price-middle {
+.price__article--middle {
   margin: auto;
 }

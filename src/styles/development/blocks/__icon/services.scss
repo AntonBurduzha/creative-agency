@@ -1,6 +1,6 @@
 @import '../../../sprite';
 
-.icon-property-keep {
+.icon--property-keep {
   @include sprite($keep);
   display: block;
   margin: auto;
@@ -9,7 +9,7 @@
   width: 60px;
 }
 
-.icon-property-limits {
+.icon--property-limits {
   @include sprite($limits);
   display: block;
   margin: auto;
@@ -18,7 +18,7 @@
   width: 60px;
 }
 
-.icon-property-ideas {
+.icon--property-ideas {
   @include sprite($ideas);
   display: block;
   margin: auto;
@@ -26,7 +26,7 @@
   width: 51px;
 }
 
-.icon-property-support {
+.icon--property-support {
   @include sprite($support);
   display: block;
   margin: auto;
@@ -35,7 +35,7 @@
   width: 60px;
 }
 
-.icon-checkbox {
+.icon--checkbox {
   @include sprite($point);
   display: inline-block;
   margin-right: 8px;

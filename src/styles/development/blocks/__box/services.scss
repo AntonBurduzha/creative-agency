@@ -1,19 +1,55 @@
-.box-property {
-  width: 530px;
-
-  @media screen and (max-width: $screen1200) {
-    width: 100%;
-  }
+.property__item {
+  display: inline-block;
+  width: 230px;
 
   @media screen and (max-width: $screen1170) {
-    width: 230px;
+    display: block;
   }
 
   @media screen and (max-width: $screen768) {
+    display: inline-block;
+  }
+
+  @media screen and (max-width: $screen600) {
+    display: block;
+    float: none;
+    margin: auto;
     width: 100%;
   }
 }
 
-.box-property-left {
+.property__item--second {
   float: right;
+
+  @media screen and (max-width: $screen1170) {
+    float: none;
+  }
+
+  @media screen and (max-width: $screen767) {
+    float: right;
+  }
+
+  @media screen and (max-width: $screen600) {
+    float: none;
+  }
+}
+
+.property__item--third {
+  @media screen and (max-width: $screen768) {
+    float: right;
+  }
+
+  @media screen and (max-width: $screen767) {
+    float: none;
+  }
+}
+
+.property__item--fourth {
+  @media screen and (max-width: $screen768) {
+    float: right;
+  }
+
+  @media screen and (max-width: $screen600) {
+    float: none;
+  }
 }
