@@ -1,0 +1,18 @@
+.footer {
+  padding: 45px 0 50px;
+
+  &__article {
+    float: right;
+    margin-right: 80px;
+    width: 350px;
+
+    @media screen and (max-width: $screen1070) {
+      float: none;
+      width: auto;
+    }
+
+    @media screen and (max-width: $screen768) {
+      margin: 0;
+    }
+  }
+}

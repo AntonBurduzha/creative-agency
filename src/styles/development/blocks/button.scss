@@ -1,0 +1,40 @@
+.button {
+  &--page-info {
+    background: url('../img/home-page/menu-btn.jpg') no-repeat center;
+    background-color: $white-color;
+    display: none;
+    float: right;
+    height: 20px;
+    margin-right: 6.25%;
+    padding: 0 20px;
+
+    @media screen and (max-width: $screen768) {
+      display: block;
+    }
+  }
+
+  &--history {
+    background-color: $bg-color;
+    border: 0;
+    border-radius: 0;
+    color: $white-color;
+    float: right;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    height: 50px;
+    margin-top: 30px;
+    width: 150px;
+
+    &:hover,
+    &:focus {
+      background-color: $more-btn-hover;
+      color: $white-color;
+    }
+
+    @media screen and (max-width: $screen768) {
+      float: left;
+      margin-top: 0;
+    }
+  }
+
+}

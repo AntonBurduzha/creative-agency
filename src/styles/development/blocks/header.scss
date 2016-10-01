@@ -1,0 +1,37 @@
+.header {
+  background-repeat: no-repeat;
+
+  &--main {
+    background-image: url('../img/home-page/header-bg.png');
+    background-size: 100% 850px;
+  }
+
+  &--common {
+    background-color: $input-border;
+    background-image: url('../img/about-page/header-bg.png');
+    background-size: 100% 500px;
+    height: 500px;
+  }
+
+  .page-info {
+    padding-top: 40px;
+  }
+
+  .history {
+    padding-top: 120px;
+
+    &__article {
+      margin-right: 6.25%;
+      width: 550px;
+
+      @media screen and (max-width: $screen1200) {
+        width: auto;
+      }
+
+      @media screen and (max-width: $screen768) {
+        margin: auto;
+        width: 90%;
+      }
+    }
+  }
+}
