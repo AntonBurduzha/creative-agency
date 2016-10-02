@@ -99,4 +99,4 @@ gulp.task('replace-sprite', function(){
         .pipe(gulp.dest('src/styles'));
 });
 
-gulp.task('build', ['html', 'sass', 'images', 'vendor', 'vendor-css','autoprefixer', 'sprite', 'sprite-to-styles', 'replace-sprite', 'concat-css']);
+gulp.task('build', ['html', 'sass', 'images', 'vendor', 'vendor-css','autoprefixer', 'sprite', 'sprite-to-styles', 'replace-sprite']);
