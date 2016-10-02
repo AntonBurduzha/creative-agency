@@ -1,0 +1,93 @@
+.input {
+  background-color: $light-grey;
+  border: 1px solid $input-border;
+  border-radius: 0;
+  color: $grey-color;
+  font-family: 'Montserrat', sans-serif;
+  font-size: $font11;
+  font-weight: bold;
+
+  &--contact[type='text'] {
+    background-color: $white-color;
+    border-right: 0;
+    display: block;
+    float: left;
+    width: 370px;
+
+    &:focus {
+      border: 1px solid $bg-color;
+    }
+
+    @media screen and (max-width: $screen1170) {
+      width: 200px;
+    }
+  }
+
+  //contact
+  &--contact-name[type='text'] {
+    display: inline-block;
+    margin-bottom: 30px;
+    width: 47%;
+
+    @media screen and (max-width: $screen660) {
+      display: block;
+      width: 100%;
+    }
+
+    &:focus {
+      border: 1px solid $grey-color;
+    }
+  }
+
+  &--contact-email[type='text'] {
+    display: inline-block;
+    float: right;
+    margin-bottom: 30px;
+    width: 47%;
+
+    @media screen and (max-width: $screen660) {
+      display: block;
+      float: none;
+      width: 100%;
+    }
+
+    &:focus {
+      border: 1px solid $grey-color;
+    }
+  }
+
+  &--contact-object[type='text'] {
+    display: block;
+    margin-bottom: 30px;
+    width: 100%;
+
+    &:focus {
+      border: 1px solid $grey-color;
+    }
+  }
+
+  &--contact-message {
+    display: block;
+    height: 195px;
+    margin-bottom: 30px;
+    width: 100%;
+
+    &:focus {
+      border: 1px solid $grey-color;
+    }
+  }
+
+  //blog
+  &--search[type='text'] {
+    background: $input-border url('../img/blog-page/search.png') no-repeat;
+    background-position: 230px center;
+    border: 0;
+    font-size: $font12;
+    letter-spacing: .3px;
+    width: 100%;
+
+    &:focus {
+      border: 0;
+    }
+  }
+}

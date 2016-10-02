@@ -1,4 +1,12 @@
 .button {
+  background-color: $bg-color;
+  border: 0;
+  border-radius: 0;
+  color: $white-color;
+  font-family: 'Montserrat', sans-serif;
+  height: 50px;
+  width: 150px;
+
   &--page-info {
     background: url('../img/home-page/menu-btn.jpg') no-repeat center;
     background-color: $white-color;
@@ -14,16 +22,9 @@
   }
 
   &--history {
-    background-color: $bg-color;
-    border: 0;
-    border-radius: 0;
-    color: $white-color;
     float: right;
-    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    height: 50px;
     margin-top: 30px;
-    width: 150px;
 
     &:hover,
     &:focus {
@@ -37,4 +38,84 @@
     }
   }
 
+  &--get-touch {
+    background-color: $white-color;
+    color: $bg-color;
+    font-weight: bold;
+
+    @media screen and (max-width: $screen768) {
+      display: block;
+      margin: auto;
+      margin-bottom: 20px;
+    }
+
+    &:hover,
+    &:focus {
+      background-color: $getin-btn-hover;
+      color: $bg-color;
+    }
+  }
+
+  &--send-form {
+    display: block;
+    float: left;
+    height: 38px;
+    width: 100px;
+
+    &:hover,
+    &:focus {
+      background-color: $more-btn-hover;
+      color: $white-color;
+    }
+  }
+
+  //about
+  &--read-more {
+    display: inline-block;
+    float: right;
+    font-weight: bold;
+    margin-right: 30px;
+
+    &:hover,
+    &:focus {
+      background-color: $more-btn-hover;
+      color: $white-color;
+    }
+
+    @media screen and (max-width: $screen1170) {
+      display: block;
+      float: none;
+      margin-left: 30px;
+      margin-right: 0;
+    }
+
+    @media screen and (max-width: $screen1170) {
+      margin: auto;
+    }
+  }
+
+  //services
+  &--price {
+    font-size: $font14;
+    padding: 0;
+    text-transform: uppercase;
+
+    &:hover,
+    &:focus {
+      background-color: $more-btn-hover;
+      color: $white-color;
+    }
+  }
+
+  //contact
+  &--send-contact {
+    display: block;
+    margin-bottom: 90px;
+
+    &:hover,
+    &:focus {
+      background-color: $more-btn-hover;
+      color: $white-color;
+    }
+  }
 }

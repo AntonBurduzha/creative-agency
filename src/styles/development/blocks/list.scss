@@ -1,0 +1,66 @@
+.list {
+  list-style-type: none;
+
+  &--category {
+    padding-left: 20px;
+  }
+
+  &--footer {
+    margin-left: 80px;
+
+    @media screen and (max-width: $screen1070) {
+      margin: 0;
+    }
+
+    @media screen and (max-width: $screen768) {
+      text-align: center;
+    }
+  }
+
+  //services
+  &--advantage {
+    display: inline-block;
+
+    @media screen and (max-width: $screen767) {
+      width: 200px;
+    }
+
+    @media screen and (max-width: $screen460) {
+      display: block;
+      margin: auto;
+    }
+  }
+
+  &--advantage-next {
+    margin-left: 100px;
+
+    @media screen and (max-width: $screen1170) {
+      float: right;
+      margin-left: 0;
+    }
+
+    @media screen and (max-width: $screen902) {
+      float: none;
+    }
+
+    @media screen and (max-width: $screen767) {
+      float: right;
+    }
+
+    @media screen and (max-width: $screen460) {
+      float: none;
+      margin: auto;
+      margin-bottom: 20px;
+    }
+  }
+
+  &--price {
+    margin-bottom: 40px;
+  }
+
+  //contact
+  &--contact-us {
+    padding-left: 0;
+  }
+
+}

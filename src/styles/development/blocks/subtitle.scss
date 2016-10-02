@@ -1,36 +1,95 @@
 .subtitle {
+  color: $header-color;
+  font-family: 'Montserrat', sans-serif;
+  font-size: $font14;
+  font-weight: bold;
+  text-transform: uppercase;
+
   &--logo {
-    color: $header-color;
-    font-family: 'Montserrat', sans-serif;
     font-size: $font18;
-    font-weight: bold;
     margin-left: 6.25%;
-    text-transform: uppercase;
   }
 
   &--main {
     background-color: $bg-color;
-    color: $header-color;
-    font-family: 'Montserrat', sans-serif;
     font-size: $font18;
-    font-weight: bold;
     letter-spacing: .5px;
     margin: 0 auto;
     margin-top: 160px;
     padding: 3px;
     text-align: center;
-    text-transform: uppercase;
     width: 100px;
   }
 
   &--common {
-    color: $header-color;
-    font-family: 'Montserrat', sans-serif;
-    font-size: $font14;
-    font-weight: bold;
     letter-spacing: .5px;
     text-align: center;
-    text-transform: uppercase;
+  }
+
+  &--category {
+    background-color: $bg-color;
+    color: $white-color;
+    text-align: center;
+    width: 60px;
+  }
+
+  //about
+  &--about {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: .5px;
+  }
+
+  &--client {
+    background-color: $bg-color;
+    color: $white-color;
+    margin: auto;
+    padding: 5px 10px;
+    text-align: center;
+    width: 95px;
+  }
+
+  //services
+  &--property {
+    font-size: $font18;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  &--price {
+    background-color: $bg-color;
+    color: $white-color;
+    margin-bottom: 40px;
+    padding: 7px 0;
+    text-align: center;
+    width: 160px;
+  }
+
+  //blog
+  &--blog {
+    background-color: $bg-color;
+    color: $white-color;
+    display: inline-block;
+    margin-top: 25px;
+    padding: 8px 0;
+    text-align: center;
+    width: 165px;
+  }
+
+  &--blog-nav {
+    display: inline-block;
+    font-size: $font12;
+    margin-bottom: 15px;
+    text-align: center;
+    width: 80px;
+  }
+
+  &--blog-tag {
+    background-color: $input-border;
+    color: $grey-color;
+    display: inline-block;
+    font-size: $font12;
+    margin-bottom: 5px;
+    padding: 8px 17px;
   }
 
 }

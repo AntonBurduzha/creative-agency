@@ -1,11 +1,6 @@
 @import 'variables';
 @import 'base';
-
-@import 'development/blocks/index';
-@import 'development/blocks/about';
-@import 'development/blocks/contact';
-@import 'development/blocks/services';
-@import 'development/blocks/blog';
+@import 'sprite';
 
 @import 'development/blocks/header';
 @import 'development/blocks/footer';
@@ -13,4 +8,10 @@
 @import 'development/blocks/subtitle';
 @import 'development/blocks/button';
 @import 'development/blocks/text';
-
+@import 'development/blocks/icon';
+@import 'development/blocks/input';
+@import 'development/blocks/list';
+@import 'development/blocks/list-link';
+@import 'development/blocks/list-item';
+@import 'development/blocks/img';
+@import 'development/blocks/main';

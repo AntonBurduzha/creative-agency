@@ -1,0 +1,123 @@
+.icon {
+  display: block;
+
+  &--options {
+    @include sprite($option);
+    margin-bottom: 25px;
+  }
+
+  &--design {
+    @include sprite($design);
+    margin-bottom: 20px;
+  }
+
+  &--commerce {
+    @include sprite($commerce);
+    margin-bottom: 20px;
+  }
+
+  &--customize {
+    @include sprite($customize);
+    margin-bottom: 20px;
+  }
+
+  //about
+  &--responsive {
+    @include sprite($icon-mobile);
+    display: inline-block;
+  }
+
+  &--commerce-benefits {
+    @include sprite($icon-commerce);
+    display: inline-block;
+  }
+
+  &--options-benefits {
+    @include sprite($icon-options);
+    display: inline-block;
+  }
+
+  &--custom-benefits {
+    @include sprite($icon-customize);
+    display: inline-block;
+  }
+
+  &--wordpress {
+    @include sprite($icon-wordpress);
+    display: inline-block;
+  }
+
+  &--support {
+    @include sprite($icon-support);
+    display: inline-block;
+  }
+
+  &--client {
+    @include sprite($johndoe);
+    margin: auto;
+    margin-bottom: 25px;
+    width: 85px;
+  }
+
+  &--client-pages {
+    @include sprite($pagination);
+    margin: auto;
+    margin-top: 30px;
+    width: 92px;
+  }
+
+  //services
+  &--property-keep {
+    @include sprite($keep);
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 5px;
+    width: 60px;
+  }
+
+  &--property-limits {
+    @include sprite($limits);
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 18px;
+    width: 60px;
+  }
+
+  &--property-ideas {
+    @include sprite($ideas);
+    margin: auto;
+    margin-bottom: 30px;
+    width: 51px;
+  }
+
+  &--property-support {
+    @include sprite($support);
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 9px;
+    width: 60px;
+  }
+
+  &--checkbox {
+    @include sprite($point);
+    display: inline-block;
+    margin-right: 8px;
+  }
+
+  //blog
+  &--blog-comment {
+    @include sprite($comment);
+    display: inline-block;
+    margin-left: 13px;
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+
+  &--blog-like {
+    @include sprite($like);
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 3px;
+    vertical-align: middle;
+  }
+}

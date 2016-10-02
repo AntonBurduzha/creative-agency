@@ -1,0 +1,139 @@
+.img {
+  background-color: $input-border;
+
+  &--history {
+    float: right;
+    height: auto;
+
+    @media screen and (max-width: $screen1200) {
+      display: block;
+      float: none;
+      margin: auto;
+      width: 95%;
+    }
+  }
+
+  &--features {
+    @media screen and (max-width: $screen1000) {
+      height: auto;
+      margin: 0;
+      width: 95%;
+    }
+
+    @media screen and (max-width: $screen768) {
+      display: block;
+      margin: auto;
+    }
+  }
+
+  &--category {
+    height: auto;
+    margin-bottom: 25px;
+    width: 80%;
+
+    @media screen and (max-width: $screen767) {
+      margin: 25px 15px;
+      vertical-align: top;
+      width: 25%;
+    }
+
+    @media screen and (max-width: $screen660) {
+      width: 90%;
+    }
+  }
+
+  &--footer-social {
+    float: right;
+
+    &:hover {
+      opacity: .75;
+    }
+
+    @media screen and (max-width: $screen1070) {
+      float: left;
+    }
+
+    @media screen and (max-width: $screen768) {
+      display: block;
+      float: none;
+      margin: auto;
+    }
+  }
+
+  //about
+  &--team {
+    display: block;
+    margin: auto;
+    margin-bottom: 60px;
+    width: 80%;
+
+    @media screen and (max-width: $screen1366) {
+      margin-bottom: 30px;
+    }
+
+    @media screen and (max-width: $screen1200) {
+      height: auto;
+      width: 100%;
+    }
+  }
+
+  &--client {
+    height: auto;
+
+    @media screen and (max-width: $screen1170) {
+      width: 100%;
+    }
+
+    @media screen and (max-width: $screen768) {
+      display: block;
+      margin: auto;
+      margin-top: 35px;
+    }
+  }
+
+  //services
+  &--advantage {
+    @media screen and (max-width: $screen1366) {
+      width: 100%;
+    }
+  }
+
+  //contact
+  &--social {
+    display: block;
+
+    &:hover {
+      opacity: .75;
+    }
+  }
+
+  &--map {
+    @media screen and (max-width: $screen1366) {
+      width: 95%;
+    }
+
+    @media screen and (max-width: $screen768) {
+      width: 75%;
+    }
+
+    @media screen and (max-width: $screen767) {
+      display: block;
+      margin: auto;
+      margin-top: 30px;
+      width: 90%;
+    }
+  }
+
+  //blog
+  &--blog-item {
+    display: block;
+
+    @media screen and (max-width: $screen902) {
+      width: 100%;
+    }
+  }
+
+  &-blog--nav {
+    display: block;
+  }
+}
